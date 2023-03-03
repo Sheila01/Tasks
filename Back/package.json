@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev" : "nodemon  Back/index.js",
+    "dev": "nodemon  Back/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,7 +14,8 @@
   "dependencies": {
     "express": "^4.18.2",
     "morgan": "^1.10.0",
-    "mysql2": "^3.1.2"
+    "mysql2": "^3.1.2",
+    "node": "^14.17.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
